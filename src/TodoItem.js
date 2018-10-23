@@ -8,7 +8,7 @@ class TodoItem extends React.Component{
   render() {
     const {content} = this.props;
     return (
-      <div onClick={this.handleDelete.bind(this)}>{content}</div>
+      <div onClick={this.handleDelete.bind(this)}>{content}1</div>
     )
   }
 }
